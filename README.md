@@ -1,7 +1,9 @@
 Run command:
 
 git clone https://github.com/yanyidu0506/BranchTests.git 
+
 cd BranchTests
+
 mvn clean package -Dplatform=mac
 
 The test cases can be executed on mac and linux platform. Can be extended to any platform by passing a mvn run parameter. Here I provide 2 platforms to run. 
