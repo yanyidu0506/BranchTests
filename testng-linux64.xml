@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Suite" parallel="tests" thread-count="6">
+	<test name="Firefox Test Linux64" enabled="true">
+		<parameter name="browserType" value="firefox">
+        <parameter name="platform" value="linux64" />
+			<classes>
+				<class name="com.yanyi.company.branch.TestCases" />
+			</classes>
+		</parameter>
+	</test>
+	<test name="Chrome Test Linux64" enabled="true">
+		<parameter name="browserType" value="chrome">
+        <parameter name="platform" value="linux64" />
+			<classes>
+				<class name="com.yanyi.company.branch.TestCases" />
+			</classes>
+		</parameter>
+	</test>
+</suite>
