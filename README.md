@@ -1,4 +1,9 @@
-# BranchTests
+Run command:
+
+git clone https://github.com/yanyidu0506/BranchTests.git 
+cd BranchTests
+mvn clean package -Dplatform=mac
+
 The test cases can be executed on mac and linux platform. Can be extended to any platform by passing a mvn run parameter. Here I provide 2 platforms to run. 
 
 All test cases are using testng and maven to run. The computer to run the tests require chrom and firefox(better to have latest version) and maven 3.3.9 version or later installed.  testng lib jars are downloaded by maven dependency management.
