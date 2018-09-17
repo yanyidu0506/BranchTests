@@ -190,7 +190,7 @@ public class TestCases {
     }
     
     @Test
-    public void VerifyDeptOfEmployees() throws InterruptedException {
+    public void testDeptOfEmployees() throws InterruptedException {
         
         //get all team persons
         List<WebElement> allTeamPersons = getTeamMembers("all");
